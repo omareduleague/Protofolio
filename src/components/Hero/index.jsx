@@ -30,7 +30,7 @@ const Hero = () => {
 
             <div className="relative mt-10 md:mt-0">
                 <img
-                src="./public\images\hero\OMTERM.png"
+                src="./images/hero/OMTERM.png"
                 alt="Profile"
                 className="rounded-full shadow-lg"
                 width={300}
@@ -39,7 +39,7 @@ const Hero = () => {
 
                 <div className="absolute top-[-20px] right-[-20px] bg-white dark:bg-gray-700 p-2 rounded-full shadow-md">
                 <img
-                src="./public\images\hero\React.svg"
+                src="./images/hero/React.svg"
                 alt="React"
                 className="w-10 h-10"
                 />
@@ -47,7 +47,7 @@ const Hero = () => {
 
                <div className="absolute bottom-[-20px] left-[-20px] bg-white dark:bg-gray-700 p-2 rounded-full shadow-md">
                 <img
-                src="./public\images\hero\Nextjs.svg"
+                src="./images/hero/Nextjs.svg"
                 alt="Nextjs"
                 className="w-10 h-10"
                 />
