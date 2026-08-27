@@ -69,7 +69,7 @@ const ContactSection = () => {
                     </label>
                     <textarea
                     rows={5} 
-                    id="massage"
+                    id="message"
                     placeholder="Your message..."
                     className={inputClass}
                     > </textarea>
