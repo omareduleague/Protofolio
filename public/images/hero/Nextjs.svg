@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="100%" height="100%" aria-label="Next.js Logo">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGradient" cx="0%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#000000" />
+      <stop offset="100%" stop-color="#0a0a0a" />
+    </radialGradient>
+
+    <!-- N Slash Gradient -->
+    <linearGradient id="nextSlash" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Right Pillar Gradient -->
+    <linearGradient id="nextPillar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#444444" />
+    </linearGradient>
+  </defs>
+
+  <!-- Circle Outer Background -->
+  <circle cx="90" cy="90" r="85" fill="url(#bgGradient)" stroke="#222222" stroke-width="2" />
+
+  <!-- Left Vertical Bar -->
+  <rect x="58" y="52" width="11" height="76" fill="#FFFFFF" rx="1" />
+
+  <!-- Right Vertical Bar -->
+  <rect x="111" y="52" width="11" height="76" fill="url(#nextPillar)" rx="1" />
+
+  <!-- Diagonal Slash -->
+  <polygon points="58,52 69,52 122,128 111,128" fill="url(#nextSlash)" />
+</svg>
