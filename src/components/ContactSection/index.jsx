@@ -65,12 +65,12 @@ const ContactSection = () => {
                 <div>
                     <label htmlFor="massage"
                     className={labelClass}>
-                        Email
+                        Message
                     </label>
                     <textarea
                     rows={5} 
                     id="massage"
-                    placeholder="Your massage..."
+                    placeholder="Your message..."
                     className={inputClass}
                     > </textarea>
                 </div>
